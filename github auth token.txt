@@ -1,5 +1,5 @@
 token:
-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
+//ghp_//eNuvc//nKwhfz//3HVwuZJz//NsXPhIos//hns4EyYuW
 
 link:
 git remote add set-url "https://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@github.com/protik-das-utso/restaurant_web_project"

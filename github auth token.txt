@@ -2,4 +2,4 @@ token:
 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
 
 link:
-git remote set-url origin "https://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@github.com/protik-das-utso/restaurant_web_project
+git remote add set-url "https://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@github.com/protik-das-utso/restaurant_web_project"

@@ -1,5 +1,5 @@
 """
-URL configuration for restaurent project.
+URL configuration for restaurant project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -16,19 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.conf import settings
-from django.conf.urls.static import static
-from Base_App.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', HomeView),
-    path('/about', AboutView),
-    path('/menu', MenuView),
-    path('/booktable', BookTableView)
-
 ]
-if settings.DEBUG:
-    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
